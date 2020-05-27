@@ -1,0 +1,182 @@
+/**Color
+GENERAL
+    SIZE 750px
+    LINES COVER ALL THE WIDTH
+    BACKGROUND #212224
+    NO WHITE COLORS ON SIDES
+    Fonts: 
+        Headings: Georgia, serif
+        All other text: Arial, Helvetica, sans-seri
+    
+
+HEADER
+    BACKGROUND #000000
+    
+
+NAV BAR
+    BACKGROUND #1b1b1b
+    TEXT COLOR  #cccccc
+    BORDERS TOP - BOTTOM #262626
+    DIVISION LINES OF BUTTONS #646464
+    Home: index.html
+    Mission: mission.html
+    Community: community.html
+    Events: events.html
+
+CONTENT/BODY
+    BACKGROUND #212224
+        MAIN IMAGE 
+            BORDER #3B3B3B
+            ROUNDED CORNERS
+    TITLE COLOR #CCA756
+    TEXT COLOR #ffffff
+    USE # FOR READ MORE LINKS
+
+
+FOOTER
+    BACKGROUND #1b1b1b
+    TEXT COLOR #757575
+    TOP BORDER #262626
+
+BUTTON (fixed)
+    OUT STROKE #000000
+    BACKGROUND #1b1b1b
+    TEXT COLOR #cccccc
+    
+
+
+**/
+/** ------* Header/Nav * ------- **/
+
+
+header {
+    margin: auto;
+}
+header #stripe1 {
+    
+    width: auto;
+    height: 73px;
+    background-color: #000000;
+    margin: 0px 0px 0px 0px;
+}
+
+
+header #logo {
+    display: block;
+    margin-top: -133px;
+    height: 110px;  
+    margin-left: 250px;
+    margin-right: auto;
+}
+
+header nav {
+    
+    width: auto;
+    border: 2px solid #262626;
+    height: 40px;
+    background-color: #1b1b1b;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+}
+
+header nav li {
+
+    display: inline-block;
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 35px;
+    font-weight: bold;
+
+}
+
+header nav li a{
+    text-decoration: none;
+}
+
+header nav li a:link {
+    color: #f8ffb0;
+}
+
+header nav li a:hover {
+    color: yellow;
+}
+
+header nav li a:visited {
+    color: #ffffff;
+}
+
+nav li a:active {
+    color: #52471b;
+}
+
+
+
+/** -------- * Body / Section* --------**/
+
+body {
+    width: 100%;
+    min-width: 750px;
+    height: auto;
+    background-color: #f8ffb0;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#maincontent {
+    margin: auto;
+    text-align: center;
+    
+}
+figure {
+    margin-top: 50px;
+    background-color: #87752d;
+    border-radius: 5px;
+    width: 200px;
+    height: 330px;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 10px;
+}
+figure img {
+    width: 186px;
+    height: 293px;    
+    padding: 7px 7px 7px 7px;
+}
+figcaption {
+    color: #f8ffb0;
+    text-align: center;
+    margin-top: -7px;
+    padding-bottom: 100px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+blockquote {
+    margin-top: 40px;
+    margin-bottom: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 1.8em;
+    text-align: center;
+    color: #52471b;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/** -----* Footer * ----- **/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #52471b;
+    color: #f2cc10;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    margin-bottom: 0px;
+    border-top: 8px solid #87752d;
+}
